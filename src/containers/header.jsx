@@ -16,6 +16,7 @@ class Header extends Component {
   searchCars = event => {
     event.preventDefault();
     console.log("header : searchCars : ", this.state);
+    this.props.getCars(this.state.keyword);
   };
 
   handleChange = event => {

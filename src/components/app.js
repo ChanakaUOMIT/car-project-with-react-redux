@@ -3,7 +3,7 @@ import { ReactDOM } from "react-dom";
 import { Switch, Route } from "react-router-dom";
 import Home from "./home";
 // import Header from "../containers/header";
-import Car from "./car";
+import Car from "../containers/car";
 
 class App extends Component {
   state = {};
